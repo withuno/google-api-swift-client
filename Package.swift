@@ -27,7 +27,7 @@ let package = Package(
     .library(name: "Discovery", targets: ["Discovery"]),
   ],
   dependencies: [
-    .package(name: "Auth", url: "https://github.com/withuno/google-auth-library-swift.git", .branch("decoding-errors")),
+    .package(name: "Auth", url: "https://github.com/withuno/google-auth-library-swift.git", .branch("decoding-errors-pr")),
 
   ],
   targets: [
