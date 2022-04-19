@@ -27,7 +27,7 @@ let package = Package(
     .library(name: "Discovery", targets: ["Discovery"]),
   ],
   dependencies: [
-    .package(name: "Auth", url: "https://github.com/googleapis/google-auth-library-swift.git", from: "0.5.3"),
+    .package(name: "Auth", url: "https://github.com/googleapis/google-auth-library-swift.git", .branch("main"),
 
   ],
   targets: [
